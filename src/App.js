@@ -6,6 +6,7 @@ import './App.css';
 import About from './components/About';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import Landing from './components/Landing';
 
@@ -16,10 +17,11 @@ class App extends Component {
         <Navbar />
         <BrowserRouter>
           <div>
-            <Route path="/" component={Landing} />
+            <Route path exact="/" component={Landing} />
             <Route path="/about" component={About} />
           </div>
         </BrowserRouter>
+        <Footer />
       </div>
     );
   }

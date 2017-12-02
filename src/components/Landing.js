@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Gallery from './Gallery';
+
 import graph from '../media/graph.jpeg';
 
 const Landing = () => {
@@ -18,7 +20,7 @@ const Landing = () => {
               <div className="carousel-caption d-none d-sm-block text-right mb-5">
                 <h1 className="display-3">Head One</h1>
                 <p className="lead">Improve your ability to code and pursue your future</p>
-                <a href="#" className="btn btn-primary">Learn More</a>
+                <a href="/about" className="btn btn-primary">Learn More</a>
               </div>
             </div>
 
@@ -103,6 +105,11 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
+      <section className="py-5">
+        <Gallery />
+      </section>
+  
     </div>
   )
 }
