@@ -67,4 +67,7 @@ strong {
     width: 100%;
     background: #000;
     color: #ccc;
+    position: absolute;
+    bottom: 0;
+
 }

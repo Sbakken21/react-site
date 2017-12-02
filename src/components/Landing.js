@@ -6,7 +6,7 @@ import graph from '../media/graph.jpeg';
 
 const Landing = () => {
   return (
-    <div>
+    <div id="landing">
       <section id="showcase">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
@@ -91,7 +91,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section id="info" class="py-3">
+      <section id="info" className="py-3">
         <div className="container">
           <div className="row">
             <div className="col-sm-6 align-self-center">

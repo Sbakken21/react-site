@@ -7,7 +7,7 @@ import business from '../media/business.jpg';
 
 const About = () => {
   return (
-    <div>
+    <div className="about-page">
       <header id="page-header"> 
         <div className="container">
           <div className="row">
