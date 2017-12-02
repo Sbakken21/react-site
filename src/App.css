@@ -47,3 +47,17 @@ strong {
 #home-icons .fa{
     font-size: 55px;
 }
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('./media/skyscraper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.graph {
+    border-radius: 5%;
+}

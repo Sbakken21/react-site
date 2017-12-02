@@ -1,5 +1,7 @@
 import React from 'react';
 
+import graph from '../media/graph.jpeg';
+
 const Landing = () => {
   return (
     <div>
@@ -26,6 +28,7 @@ const Landing = () => {
               <div className="carousel-caption d-none d-sm-block">
                 <h1 className="display-3">Head Two</h1>
                 <p className="lead">Work with some of the most advanced technology.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum, eaque est incidunt minima blanditiis soluta nemo consequatur. Illo commodi dicta ab aut nesciunt quidem possimus repellendus sint hic nobis?</p>
               </div>
             </div>
           </div>
@@ -51,7 +54,7 @@ const Landing = () => {
       </div>
       </section>
 
-      <section id="home-icons" class="py-5">
+      <section id="home-icons" className="py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-4 mb-4 text-center">
@@ -68,6 +71,34 @@ const Landing = () => {
               <i className="fa fa-cog mb-2"></i>
               <h3>Turning Gears</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="home-heading" className="p-5">
+        <div className="dark-overlay">
+          <div className="row">
+            <div className="col">
+              <div className="container pt-3">
+                <h1>Are You Ready To Reach New Heights?</h1>
+                <p className="d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora placeat dicta, nihil corporis cum aliquam incidunt ducimus necessitatibus error quasi earum labore obcaecati culpa nam, enim aspernatur in modi temporibus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="info" class="py-3">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6 align-self-center">
+              <h3>Lorem, ipsum.</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error cum impedit at! Tenetur nemo, neque nostrum quo quidem iste consequuntur?</p>
+              <a href="" className="btn btn-outline-danger btn-lg mb-2">Learn More</a>
+            </div>
+            <div className="col-sm-6">
+              <img src={graph} className="graph img-fluid" alt="graph"/>
             </div>
           </div>
         </div>
