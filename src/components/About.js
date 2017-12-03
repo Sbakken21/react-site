@@ -33,6 +33,71 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <section id="icon-boxes" className="p-5">
+        <div className="container">
+          <div className="row mb-4">
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-building"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-bullhorn"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-comments"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+          </div>
+
+          <div className="row second-row-icons">
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-clock-o"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-cc"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+            <div className="col-md-4">
+              <div className="card bg-danger text-center text-white">
+                <div className="card-block">
+                  <i className="fa fa-coffee"></i>
+                  <h3>Lorem, ipsum.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+      
     </div>
   )
 }

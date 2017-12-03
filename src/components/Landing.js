@@ -20,7 +20,7 @@ const Landing = () => {
               <div className="carousel-caption d-none d-sm-block text-right mb-5">
                 <h1 className="display-3">Head One</h1>
                 <p className="lead">Improve your ability to code and pursue your future</p>
-                <a href="/about" className="btn btn-primary">Learn More</a>
+                <a href="/about" className="btn btn-primary">Learn More <span><i className="fa fa-chevron-right"></i></span></a>
               </div>
             </div>
 
@@ -106,8 +106,26 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="py-5">
+      <section className="gallery-component">
         <Gallery />
+      </section>
+
+      <section id="newsletter" className="text-center p-4 bg-dark text-white">
+        <div className="container">
+          <div className="row newsletter-row">
+            <div className="col">
+              <h1>Signup For Our Newsletter</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium officia corrupti id maiores temporibus quia.</p>
+              <form action="" className="form-inline justify-content-center">
+                <label className="sr-only" htmlFor="name">Name</label>
+                <input type="text" className="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name" />
+                <label className="sr-only" htmlFor="Email">Email</label>
+                <input type="text" className="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email" />
+                <button className="btn btn-primary mt-sm-2" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
   
     </div>
