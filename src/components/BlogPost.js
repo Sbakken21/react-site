@@ -28,11 +28,11 @@ class BlogPost extends Component {
             return (
               <div key={index} className="card">
                 <img className="card-img-top img-fluid blog-image" src={images[index]} alt={info.title} />
-                <div className="card-block">
+                <div className="card-block p-1">
                   <h4 className="card-title">{info.title}</h4>
                   <small className="text-muted">Written by {info.author}</small>
                   <hr/>
-                  <p className="card-text">{info.post}</p>
+                  <p className="card-text p-2">{info.post}</p>
                 </div>
               </div>
             )

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
       <div className="container justify-content-center">
-        <h1>Get in touch with us</h1>
+        <h1 className="py-5">Get in touch with us</h1>
         <div className="row">
           <div className="col">
           <form>

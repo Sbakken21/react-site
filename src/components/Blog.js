@@ -13,6 +13,7 @@ const Blog = () => {
             <div className="row">
               <div className="col-md-6 offset-md-3 text-center">
                 <h1>Blog</h1>
+                <p>See what is happening</p>
               </div>
             </div>
           </div>

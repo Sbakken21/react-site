@@ -98,6 +98,12 @@ strong {
     height: 200px;
 }
 
+.modal-image {
+    height: 400px;
+}
+
+
+
 .newsletter-row {
     padding-bottom: 100px;
 }

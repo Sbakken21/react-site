@@ -18,6 +18,7 @@ let images = [
 
 class Gallery extends Component {
   render() {
+
     return (
       <div className="container gallery-container py-5">
         <h1 className="text-center">Photo Gallery</h1>
@@ -25,13 +26,20 @@ class Gallery extends Component {
         <div className="row gallery-row">
             {
               images.map((image, index) => {
+                
                 return (
+                  
                   <div key={index} className="col-md-4 gallery-image-column">
-                    <img className="gallery-image" src={image} alt={index}/>
+                    <img className="gallery-image" data-toggle="modal" data-target="#myModal" src={image} alt={index}/>
                   </div>
+
+
                 )
               })
+              
             }
+
+            
         </div>
       </div>
     );
