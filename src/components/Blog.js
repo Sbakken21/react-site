@@ -1,9 +1,28 @@
 import React from 'react';
 
+import '../Blog.css';
+
+import BlogCards from './BlogCards';
+
 const Blog = () => {
   return (
     <div>
-      <h1>This is the blog page</h1>
+      <header id="blog-header">
+        <div className="blog-overlay"> 
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 offset-md-3 text-center">
+                <h1>Blog</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="blog" className="p-5">
+        <div className="container">
+          <BlogCards />
+        </div> 
+      </section>
     </div>
   )
 }

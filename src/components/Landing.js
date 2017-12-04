@@ -78,8 +78,8 @@ const Landing = () => {
         </div>
       </section>
 
-      <section id="home-heading" className="p-5">
-        <div className="dark-overlay">
+      <section id="home-heading">
+        <div className="home-overlay p-5">
           <div className="row">
             <div className="col">
               <div className="container pt-3">

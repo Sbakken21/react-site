@@ -8,11 +8,13 @@ import business from '../media/business.jpg';
 const About = () => {
   return (
     <div className="about-page">
-      <header id="page-header"> 
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 offset-md-3 text-center ">
-              <h1>About Us</h1>
+      <header id="page-header">
+        <div className="about-overlay"> 
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 offset-md-3 text-center ">
+                <h1>About Us</h1>
+              </div>
             </div>
           </div>
         </div>
