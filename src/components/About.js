@@ -13,7 +13,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 offset-md-3 text-center ">
               <h1>About Us</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae.</p>
+              <p>Blah blah blah</p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 align-self-center">
               <h1>What We Do</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti quo veritatis nostrum provident vero iste. Iste praesentium, quibusdam deleniti maxime, est nesciunt voluptatum eius voluptate tenetur perferendis, nobis commodi?</p>              
+              <p>Sandbox Tech is a company dedicated to ..............</p>              
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti quo veritatis nostrum provident vero iste. Iste praesentium, quibusdam deleniti maxime, est nesciunt voluptatum eius voluptate tenetur perferendis, nobis commodi?</p>
             </div>
             <div className="col-md-6">

@@ -7,8 +7,6 @@ import gallery4 from '../media/galleryImages/handshake.jpeg';
 import gallery5 from '../media/galleryImages/meeting.jpeg';
 import gallery6 from '../media/galleryImages/business-table.jpeg';
 
-
-
 let images = [
   gallery1,
   gallery2,
@@ -21,7 +19,7 @@ let images = [
 class Gallery extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container gallery-container py-5">
         <h1 className="text-center">Photo Gallery</h1>
         <p className="text-center">Checkout our photos</p>
         <div className="row gallery-row">

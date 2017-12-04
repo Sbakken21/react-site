@@ -18,8 +18,8 @@ const Landing = () => {
           <div className="carousel-item carousel-image-1 active">
             <div className="container">
               <div className="carousel-caption d-none d-sm-block text-right mb-5">
-                <h1 className="display-3">Head One</h1>
-                <p className="lead">Improve your ability to code and pursue your future</p>
+                <h1 className="display-3">Sandbox Tech</h1>
+                <p className="lead">Research &amp; Technology</p>
                 <a href="/about" className="btn btn-primary">Learn More <span><i className="fa fa-chevron-right"></i></span></a>
               </div>
             </div>
@@ -28,9 +28,9 @@ const Landing = () => {
           <div className="carousel-item carousel-image-2">
             <div className="container">
               <div className="carousel-caption d-none d-sm-block">
-                <h1 className="display-3">Head Two</h1>
-                <p className="lead">Work with some of the most advanced technology.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum, eaque est incidunt minima blanditiis soluta nemo consequatur. Illo commodi dicta ab aut nesciunt quidem possimus repellendus sint hic nobis?</p>
+                <h1 className="display-3">Progress</h1>
+                <p className="lead">Work with some of the most advanced technology</p>
+                <p>One of the top contributors in the field or research and technology</p>
               </div>
             </div>
           </div>
@@ -38,8 +38,8 @@ const Landing = () => {
           <div className="carousel-item carousel-image-3">
             <div className="container">
               <div className="carousel-caption d-none d-sm-block">
-                <h1 className="display-3">Head Three</h1>
-                <p className="lead">Join our community and be surrounded by people passionate about coding.</p>
+                <h1 className="display-3">Community</h1>
+                <p className="lead">Join our community and be surrounded by people passionate about technology</p>
               </div> 
             </div>
           </div>
@@ -60,19 +60,19 @@ const Landing = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 mb-4 text-center">
-              <i className="fa fa-cloud mb-2"></i>
-              <h3>Sending Data</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores.</p>
+              <i className="fa fa-wrench mb-2"></i>
+              <h3>Development</h3>
+              <p>Making advancements in the field of technology and providing unparalled information on the latest research</p>
             </div>
             <div className="col-md-4 mb-4 text-center">
-              <i className="fa fa-cart-plus mb-2"></i>
-              <h3>Making Money</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores.</p>
+              <i className="fa fa-cogs mb-2"></i>
+              <h3>Solutions</h3>
+              <p>Specialize in problem solving and providing analytical services in the largest growing industry.</p>
             </div>
             <div className="col-md-4 mb-4 text-center">
-              <i className="fa fa-cog mb-2"></i>
-              <h3>Turning Gears</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores.</p>
+              <i className="fa fa-commenting-o mb-2"></i>
+              <h3>Support</h3>
+              <p>Align with the leading experts in technology. Join our team and be surrounded by people with the desire for excellence.</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Landing = () => {
             <div className="col">
               <div className="container pt-3">
                 <h1>Are You Ready To Reach New Heights?</h1>
-                <p className="d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora placeat dicta, nihil corporis cum aliquam incidunt ducimus necessitatibus error quasi earum labore obcaecati culpa nam, enim aspernatur in modi temporibus.</p>
+                <p className="d-none d-sm-block">Sandbox Tech is the leading company in research and technology.</p>
               </div>
             </div>
           </div>
@@ -95,9 +95,9 @@ const Landing = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 align-self-center">
-              <h3>Lorem, ipsum.</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error cum impedit at! Tenetur nemo, neque nostrum quo quidem iste consequuntur?</p>
-              <a href="" className="btn btn-outline-danger btn-lg mb-2">Learn More</a>
+              <h3>Our Mission</h3>
+              <p>Here at Sandbox Tech our goal is the pursuit of cutting-edge technology and growing the industry.</p>
+              <a href="/about" className="btn btn-outline-danger btn-lg mb-2">Learn More</a>
             </div>
             <div className="col-sm-6">
               <img src={graph} className="graph img-fluid" alt="graph"/>
@@ -115,13 +115,13 @@ const Landing = () => {
           <div className="row newsletter-row">
             <div className="col">
               <h1>Signup For Our Newsletter</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium officia corrupti id maiores temporibus quia.</p>
+              <p>Stay up to date with the latest groudbreaking advancements</p>
               <form action="" className="form-inline justify-content-center">
                 <label className="sr-only" htmlFor="name">Name</label>
                 <input type="text" className="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name" />
                 <label className="sr-only" htmlFor="Email">Email</label>
                 <input type="text" className="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email" />
-                <button className="btn btn-primary mt-sm-2" type="submit">Submit</button>
+                <button className="btn btn-primary" type="submit">Submit</button>
               </form>
             </div>
           </div>
