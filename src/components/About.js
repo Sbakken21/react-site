@@ -13,7 +13,6 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 offset-md-3 text-center ">
               <h1>About Us</h1>
-              <p>Blah blah blah</p>
             </div>
           </div>
         </div>
@@ -24,8 +23,8 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 align-self-center">
               <h1>What We Do</h1>
-              <p>Sandbox Tech is a company dedicated to ..............</p>              
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti quo veritatis nostrum provident vero iste. Iste praesentium, quibusdam deleniti maxime, est nesciunt voluptatum eius voluptate tenetur perferendis, nobis commodi?</p>
+              <p>Sandbox Tech is a research and technology company dedicated to the analysis and advancement of technology. The company was founded on the principles of determination and passion for knowledge.</p>              
+              <p></p>
             </div>
             <div className="col-md-6">
               <img src={business} alt="business" className="d-none d-md-block about-img img-fluid rounded-circle" />
@@ -41,17 +40,17 @@ const About = () => {
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
                   <i className="fa fa-building"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <h3>Build</h3>
+                  Creating the future of technology and development.
                 </div>
               </div>
             </div> 
             <div className="col-md-4">
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
-                  <i className="fa fa-bullhorn"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <i className="fa fa-flask"></i>
+                  <h3>Discover</h3>
+                  We are committed to making progress and change through our research.
                 </div>
               </div>
             </div> 
@@ -59,8 +58,8 @@ const About = () => {
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
                   <i className="fa fa-comments"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <h3>Collaborate</h3>
+                  Discuss modern technology and research with leading experts.
                 </div>
               </div>
             </div> 
@@ -70,27 +69,27 @@ const About = () => {
             <div className="col-md-4">
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
-                  <i className="fa fa-clock-o"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <i className="fa fa-line-chart"></i>
+                  <h3>Growth</h3>
+                  Top 5 in fastest growing technology companies.
                 </div>
               </div>
             </div> 
             <div className="col-md-4">
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
-                  <i className="fa fa-cc"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <i className="fa fa-lightbulb-o"></i>
+                  <h3>Innovation</h3>
+                  Developing new methods and challenging scientific knowledge.
                 </div>
               </div>
             </div> 
             <div className="col-md-4">
               <div className="card bg-danger text-center text-white">
                 <div className="card-block">
-                  <i className="fa fa-coffee"></i>
-                  <h3>Lorem, ipsum.</h3>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, error.
+                  <i className="fa fa-usb"></i>
+                  <h3>Advancement</h3>
+                  Dedicated to defining and revolutionizing technology.
                 </div>
               </div>
             </div> 
