@@ -43,7 +43,7 @@ const About = () => {
                 <div className="card-block">
                   <i className="fa fa-building"></i>
                   <h3>Build</h3>
-                  Creating the future of technology and development.
+                  Create the future of technology.
                 </div>
               </div>
             </div> 
@@ -52,7 +52,7 @@ const About = () => {
                 <div className="card-block">
                   <i className="fa fa-flask"></i>
                   <h3>Discover</h3>
-                  We are committed to making progress and change through our research.
+                  Make progress and change through research.
                 </div>
               </div>
             </div> 
@@ -61,7 +61,7 @@ const About = () => {
                 <div className="card-block">
                   <i className="fa fa-comments"></i>
                   <h3>Collaborate</h3>
-                  Discuss modern technology and research with leading experts.
+                  Discuss and research with leading experts.
                 </div>
               </div>
             </div> 
@@ -82,7 +82,7 @@ const About = () => {
                 <div className="card-block">
                   <i className="fa fa-lightbulb-o"></i>
                   <h3>Innovation</h3>
-                  Developing new methods and challenging scientific knowledge.
+                  Develop new methods and ideas.
                 </div>
               </div>
             </div> 
